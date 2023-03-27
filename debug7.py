@@ -17,7 +17,7 @@ x = 3
 y = 7
 z = 9
 
-if x < y > z:
+if x < y < z:
     print("the middle number is ", y)
 else:
-    print("the middle number is not",y)
+    print("the middle number is not ",y)

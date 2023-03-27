@@ -1,8 +1,8 @@
 #!python3
 
-x = input()
+x = float(input("Enter a number"))
 print(x)
-exit()
+#exit()
 """
 Q1. 
 Modify line 3 so that the program asks the user to "Enter a number"
@@ -11,9 +11,9 @@ the exit() command and move on to the next question
 """
 
 x = 38.4521
-x = round(x)
+x = round(x, 2)
 print(x)
-exit()
+#exit()
 """
 Q2.
 Modify line 14 so that the value of x is rounded to 2 decimal places
@@ -23,9 +23,9 @@ the exit() command and move on to the next question
 
 
 x = 3.0
-x = x
+x = int(x)
 print( x * "hello")
-exit()
+#exit()
 
 """
 Q3.
@@ -36,9 +36,9 @@ the exit() command and move on to the next question
 """
 
 x = 4
-if :
+if x > 3:
     print("x is greater than 3")
-exit()
+#exit()
 """
 Q4.
 Have line 39 check to see if x is greater than 3
@@ -46,12 +46,12 @@ When you are done, add '#' to the beginning of line 41 to comment out
 the exit() command and move on to the next question
 """
 x = 5
-if :
+if x > 5:
     print("x is greater than 5")
-#
+else:
     print("x is not greater than 5")
 print()
-exit()
+#exit()
 """
 Q5.
 Modify line 49 and 51 to check if x is greater than 5 and do a different block if it isnt'
@@ -61,10 +61,10 @@ and move on to the next question
 
 x = 3
 y = 4
-if:
+if x==3 and y==4:
     print("x is 3 and y is 4")
 
-exit()
+#exit()
 """
 Q6.
 Modify line 64 so that the program checks the values of both x and y
@@ -74,10 +74,9 @@ the exit() command and move on to the next question
 
 x = 10
 if x == 10:
-print("x is 10")
-print("10 is stored in x")
-#
-print("x is not 10")
+    print("x is 10\n10 is stored in x")
+else:
+    print("x is not 10")
 """
 Q7.
 Modify lines 77-80 so that 77 and 78 are printed if x = 10 and line 80 is executed
@@ -88,7 +87,7 @@ the exit() command and move on to the next question
 
 x = 8
 y = 8
-if:
+if (x or y)<8:
     print("at least one number is less than 8")
 """
 Q8.
